@@ -6,16 +6,23 @@
     "private": true,
     "author": "",
     "license": "ISC",
-    "dependencies": {
-        "express": "^5.1.0",
-        "puppeteer": "^24.4.0",
-        "vercel": "^44.4.1"
-    },
     "devDependencies": {
         "express-handlebars": "^8.0.3",
         "morgan": "^1.10.0",
         "node-sass": "^9.0.0",
         "nodemon": "^3.1.10"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^5.1.0",
+        "mongodb": "^6.1.0",
+        "mongoose": "^7.5.2",
+        "morgan": "^1.10.0",
+        "node": "^20.7.0",
+        "nodemon": "^3.0.1",
+        "vercel": "^44.4.1"
     },
     "scripts": {
         "start": "nodemon src/app.js",
