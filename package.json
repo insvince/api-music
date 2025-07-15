@@ -1,7 +1,11 @@
 {
     "name": "craw-ncs-mucic",
     "version": "0.1.0",
+    "main": "index.js",
+    "type": "module",
     "private": true,
+    "author": "",
+    "license": "ISC",
     "dependencies": {
         "express": "^5.1.0",
         "puppeteer": "^24.4.0",
@@ -14,7 +18,7 @@
         "nodemon": "^3.1.10"
     },
     "scripts": {
-        "start": "node src/app.js",
+        "start": "nodemon src/app.js",
         "initmusic": "node src/scrape_ncs.js",
         "initcss": "node-sass src/resources/scss/app.scss src/public/css/app.css"
     }
