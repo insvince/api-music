@@ -1,0 +1,21 @@
+{
+    "name": "craw-ncs-mucic",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "express": "^5.1.0",
+        "puppeteer": "^24.4.0",
+        "vercel": "^44.4.1"
+    },
+    "devDependencies": {
+        "express-handlebars": "^8.0.3",
+        "morgan": "^1.10.0",
+        "node-sass": "^9.0.0",
+        "nodemon": "^3.1.10"
+    },
+    "scripts": {
+        "start": "nodemon --watch src src/app.js",
+        "initmusic": "node src/scrape_ncs.js",
+        "initcss": "node-sass src/resources/scss/app.scss src/public/css/app.css"
+    }
+}
